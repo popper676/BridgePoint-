@@ -71,12 +71,7 @@ export default function Register() {
       <SectionFullScreen bg='violet'>
         <CardBox className='w-11/12 md:w-7/12 lg:w-6/12 xl:w-4/12'>
           <Formik
-            initialValues={{
-              email: '',
-              password: '',
-              confirm: '',
-            }}
-            onSubmit={(values) => handleSubmit(values)}
+initialValues={{\nname: '',\nemail: '',\npassword: '',\nconfirm: '',\n}}            onSubmit={(values) => handleSubmit(values)}
           >
             <Form>
               <label className='block font-bold mb-2'>Organization</label>
