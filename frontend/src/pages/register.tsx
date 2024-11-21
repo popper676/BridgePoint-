@@ -91,8 +91,7 @@ initialValues={{\nname: '',\nemail: '',\npassword: '',\nconfirm: '',\n}}        
               </FormField>
               <FormField label='Password' help='Please enter your password'>
                 <Field type='password' name='password' />
-              </FormField>
-              <FormField
+<FormField label='Name' help='Please enter your name'>\n<Field type='text' name='name' />\n</FormField>\n              <FormField
                 label='Confirm Password'
                 help='Please confirm your password'
               >
